@@ -1,0 +1,20 @@
+switch (expression) {
+  case value1:
+    // Code to execute if expression === value1
+    break;
+  case value2:
+    // Code to execute if expression === value2
+    break;
+  // Add more cases as needed
+  default:
+    // Code to execute if none of the above cases match
+}
+
+
+expression: The value or expression you want to evaluate.
+case value1: If the expression matches value1, the associated code block will execute.
+break: Ends the current case and exits the switch statement. Without break, the code will continue to execute the next case (fall-through).
+default: Optional block that executes if none of the case values match the expression
+
+
+
